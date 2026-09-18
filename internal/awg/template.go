@@ -111,6 +111,15 @@ func (c *WireConfig) Build() (string, error) {
 		}
 	}
 
+	    b.WriteString(fmt.Sprintf("ContentPaddingAddition = 10-100 \n"))
+	    b.WriteString(fmt.Sprintf("RekeyAfterTime = 100-120 \n"))
+        b.WriteString(fmt.Sprintf("RekeyTimeout = 3-7 \n"))
+        b.WriteString(fmt.Sprintf("RejectAfterTime = 150-180 \n"))
+        b.WriteString(fmt.Sprintf("KeepaliveTimeout = 5-15 \n"))
+        b.WriteString(fmt.Sprintf("MaxHandshakeAttempts = 15-20 \n"))
+        b.WriteString(fmt.Sprintf("RandomTrailers = on \n"))
+        b.WriteString(fmt.Sprintf("DisableCookies = on \n"))
+
 	peerPubKey := ""
 	endpoint := c.Endpoint
 	if len(c.WarpConfig.Config.Peers) > 0 {
