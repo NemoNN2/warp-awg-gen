@@ -18,7 +18,7 @@ Generates AmneziaWG 3.1 configuration files for Cloudflare WARP with full CPS ca
 - Hex dump to CPS conversion (Wireshark -> I1)
 - YAML configuration file support
 - Automatic fastest endpoint selection via TCP latency test
-- Full WARP route table (AllowedIPs)
+
 
 ## Usage
 
