@@ -1,6 +1,6 @@
 # warp-awg-gen
 
-Generates AmneziaWG 2.0 configuration files for Cloudflare WARP with full CPS camouflage support.
+Generates AmneziaWG 3.1 configuration files for Cloudflare WARP with full CPS camouflage support.
 
 [Readme in Russian](README.ru.md)
 
